@@ -19,7 +19,7 @@ header {
   }
 
  #contact{
-  font-size: 15px;
+    font-size: 15px;
 	height:auto;
 	justify-content: center;
 	align-items: center;
@@ -27,17 +27,18 @@ header {
 	background-color:rgba(143, 142, 142, 0.2);
 	background-position: center;
      border-radius:25px;
-	 padding: 30px;
-     margin: 75px 20%;
-	
+	 padding: 20px;
+     margin: auto 10%;
+	text-align: center;
  }
 
 /* Contact section styles */
 form {
-	display: flex;
+	display: inline-block;
 	flex-direction: column;
 	max-width: 200px;
 	margin: auto auto;
+    text-align: center;
   }
   
   label {
@@ -76,7 +77,7 @@ form {
    /* Footer styles */
   footer {
 	background-color: #333;
-	margin: 10px 25%;
+	margin: 10px 20%;
 	padding: 10px;
 	color: #FFF;
 	text-align: center;
