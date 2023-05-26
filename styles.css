@@ -40,14 +40,14 @@ nav ul a{
 .left{
 	font-size: 32px;
 	font-weight: 900;
+	margin-left: 20px;
 }
 
 .firstsection{
-	margin: 40px 20px;
+	margin: 20px 20px;
 	display: flex;
 	justify-content: space-around;
-	/* margin: 70px 40px; */
-
+align-items: center;
 	
 }
 
@@ -58,10 +58,13 @@ nav ul a{
 	font-size: 40px;
 	padding: 20px;
 }
-.leftsection p{
+.leftsection h1{
 	font-size: 30px;
-	font-family: cursive;
-	color: rgb(38, 17, 159);
+}
+.leftsection p{
+	font-size: 20px;
+	font-family: 'Nunito', sans-serif;
+	color: rgb(13, 0, 25);
 }
 
 .leftsection img{
@@ -85,18 +88,18 @@ height: 70%;
 }
 
 .about-container {
-	font-family:cursive;
+	font-family: 'Nunito', sans-serif;
 	font-size: 15px;
 	justify-content: center;
 	align-items: center;
 	background-color:rgb(255, 255, 255, 0.2);
     border-radius:25px;
-	padding: 50px;
-    margin: 100px 50px;
+	padding: 20px;
+    margin: 30px 25px;
 	   }
 
 .about-container p{
-	margin-top: 20px;
+	margin-top: 10px;
 }
   
   footer {
