@@ -1,53 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Roboto+Mono:wght@500&family=Work+Sans&display=swap');
 
-header {
-	background-color: #fff; 
-	border-radius: 15px;
-	margin: 20px;
-	padding: 15px;
-	display: inline-block;
-	text-align: center;
-
-  }
-  
-  
-  nav a {
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
 	
-	color: black;
-	font-size: 20px;
-	font-weight: 800;
-	margin: 10px;
-  }
+	background-color:rgb(201, 153, 252) ;
+	color: white;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	height: auto;
+}
+
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #333;
+	height: 75px;
+
+}
+nav ul {
+	
+	display: flex;
+	align-items:center;
+	justify-content:space-evenly;
+
+}
+nav ul a{
+	list-style: none;
+	margin: 0 8px;
+	color:white;
+}
 
  #contact{
     font-size: 15px;
-	height:auto;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
-	background-color:rgba(143, 142, 142, 0.2);
-	background-position: center;
-     border-radius:25px;
+     border-radius:20px;
 	 padding: 20px;
-     margin: auto 10%;
+     margin: 30px 20px ;
 	text-align: center;
+ }
+#contact h2{
+	margin-bottom: 20px;
+}
+
+ img{
+	width: 40%;
+	border-radius: 10px;
  }
 
 /* Contact section styles */
-form {
-	display: inline-block;
-	flex-direction: column;
-	max-width: 200px;
-	margin: auto auto;
-    text-align: center;
-  }
+
   
-  label {
-	font-size: 18px;
-	font-weight: 600;
-	margin-top: 20px;
-  }
   
-  input, textarea {
+  
+  input {
 	font-size: 16px;
 	padding: 10px;
 	margin-top: 5px;
@@ -56,19 +67,18 @@ form {
   }
   
   input[type="submit"] {
-	background-color: #0077B5;
+	background-color: #090e10;
 	color: #FFF;
 	font-size: 18px;
 	font-weight: 600;
 	border: none;
 	border-radius: 15px;
-	
-	margin:20px;
+	margin:10px;
 	cursor: pointer;
   }
   
   input[type="submit"]:hover {
-	background-color: #005F8C;
+	background-color: #3b40d4;
   }
   
   
