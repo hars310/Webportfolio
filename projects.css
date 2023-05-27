@@ -45,10 +45,10 @@ nav ul a{
 }
 
 .container {
-    height: 40vw;
-    margin-top: 5%;
+    height: 34vw;
+    /* margin-top: 5%; */
     border-radius: 20px;
-    margin: 18px 6%;
+    margin: 5% 6%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -67,9 +67,9 @@ nav ul a{
 	margin-left: 20px;
 }
 .projectimage {
-    width: 55%;
-    height: 35%;
-    border-radius: 15px;
+    width: 50%;
+    height: 25%;
+    border-radius: 4px;
     justify-content: right;
     align-items: right;
 }
